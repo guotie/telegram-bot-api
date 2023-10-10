@@ -404,6 +404,10 @@ type Message struct {
 	//
 	// optional
 	ForwardDate int `json:"forward_date,omitempty"`
+	// IsTopicMessage True, if the message is sent to a forum topic.
+	//
+	// optional
+	IsTopicMessage bool `json:"is_topic_message,omitempty"`
 	// IsAutomaticForward is true if the message is a channel post that was
 	// automatically forwarded to the connected discussion group.
 	//
@@ -490,6 +494,10 @@ type Message struct {
 	//
 	// optional
 	CaptionEntities []MessageEntity `json:"caption_entities,omitempty"`
+	// HasMediaSpoiler True, if the message media is covered by a spoiler animation;
+	//
+	// optional
+	HasMediaSpoiler bool `json:"has_media_spoiler,omitempty"`
 	// Contact message is a shared contact, information about the contact;
 	//
 	// optional

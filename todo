@@ -1,0 +1,15 @@
+user_shared
+chat_shared
+write_access_allowed
+forum_topic_created
+forum_topic_edited
+forum_topic_closed
+forum_topic_reopened
+general_forum_topic_hidden
+general_forum_topic_unhidden
+
+
+KeyboardButton
+    request_user
+    request_chat
+
